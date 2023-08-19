@@ -5,6 +5,6 @@ import reactor.core.publisher.Mono;
 
 public interface ConverterService {
 
-    Mono<Float> convert(ConversionRequestDto dto);
+    Mono<Double> convert(ConversionRequestDto dto);
     Mono<String> getForexData();
 }
